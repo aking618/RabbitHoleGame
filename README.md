@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+## Rabbit Hole Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### A simple game to simulate the rabbit hole problem.
 
-## Available Scripts
+## Inspiration
+Dillon William's [ElusiveRabbit Repository](https://github.com/DillonRmD/ElusiveRabbit) was a great starting point for this project. He describes the problem and the solution in his [README](https://github.com/DillonRmD/ElusiveRabbit/blob/main/README.md).
 
-In the project directory, you can run:
+## Project Screen Shot(s)
 
-### `npm start`
+<li> Main Menu </li>
+<br>
+<img src="public/images/readme1.png" alt="Screenshot of the main screen" width="500" height="500"/><br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<li> Game Screen </li>
+<img src="public/images/readme2.png" alt="Screenshot of the game" /><br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation and Setup Instructions
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### `npm test`
+Installation:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`  
 
-### `npm run build`
+To Start Server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm start`  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To Visit App:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`localhost:3000`  
 
-### `npm run eject`
+## Reflection
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This was a fun little project built because of a conversation with a friend.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Orignally, I wanted to make a visual representation of Dillon's rabbit hole problem algorithm. I decided instead to turn it into a game.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I started this process by using the `create-react-app` boilerplate, then adding `material-ui` to the project.  
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+One of the main challenges I ran into was correctly updating the state of the game. Correctly updating several different components was a fun challenge. I had to learn how to utilize the asynchronous nature of React to update the state of the game. I also had to learn how to properly update objects within the game.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+At the end of the day, the technologies implemented in this project are React, Material-UI, and a decent amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes (pun). In the next iteration I plan on rewritting the project using TypeScript instead of vanilla JS.
