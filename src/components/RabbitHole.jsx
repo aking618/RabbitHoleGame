@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import PropTypes from "prop-types";
@@ -65,6 +67,7 @@ const RabbitHole = ({
           var newHole = holes[newRabbitDirection];
           newHole.isRabbit = true;
           newHole.updateImagePath();
+
           setHoles(
             holes.map((h) => {
               if (h.location === newHole.location) {
