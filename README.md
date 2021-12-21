@@ -2,6 +2,9 @@
 
 #### A simple game to simulate the rabbit hole problem.
 
+### Demo
+[Try It Now!](https://rabbit-hole-game.netlify.app)
+
 ## Inspiration
 Dillon William's [ElusiveRabbit Repository](https://github.com/DillonRmD/ElusiveRabbit) was a great starting point for this project. He describes the problem and the solution in his [README](https://github.com/DillonRmD/ElusiveRabbit/blob/main/README.md).
 
